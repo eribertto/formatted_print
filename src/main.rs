@@ -1,4 +1,5 @@
 // all about formatted print syntax
+// https://doc.rust-lang.org/std/fmt/index.html
 fn main() {
 	// in general the {} will be auto replaced with any arguments. These will be stringified.
 	println!("{} days", 31);	// number is i32 by default
